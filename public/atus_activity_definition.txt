@@ -1,0 +1,73 @@
+﻿[
+  {
+    "category": "Caring for and helping household members.",
+    "definition": "Time spent doing activities to care for or help any child (under age 18) or adult in the household, regardless of the person’s relationship to the survey respondent or the physical or mental health status of the person being helped, is classified here. Caring and helping activities for household children and adults are coded separately in subcategories. Primary childcare activities include time spent providing physical care; playing with children; reading with children; assistance with homework; attending children’s events; taking care of children’s health care needs; and dropping off, picking up, and waiting for children. Passive childcare done as a primary activity (such as “keeping an eye on my son while he swam in the pool”) also is included. A child’s presence during the activity is not enough in itself to classify the activity as childcare. For example, “watching television with my child” is coded as a leisure activity, not childcare. Caring for and helping household members also includes a range of activities done to benefit adult members of households, such as providing physical and medical care or obtaining medical services. Doing something as a favor for or helping another household adult does not automatically result in classification as a helping activity. For example, a report of “helping my spouse cook dinner” is considered a household activity (food preparation), not a helping activity, because cooking dinner benefits the household as a whole. By contrast, doing paperwork for another person usually benefits the individual, so a report of “filling out an insurance application for my spouse” is considered a helping activity. "
+  },
+  {
+    "category": "Caring for and helping nonhousehold members.",
+    "definition": "This category includes time spent in activities done to care for or help others—both children (under age 18) and adults—who do not live in the household. When done for or through an organization, time spent helping nonhousehold members is classified as volunteering rather than as helping nonhousehold members. Care of nonhousehold children, even when done as a favor or helping activity for another adult, is always classified as caring for and helping nonhousehold children, not as helping another adult. "
+  },
+  {
+    "category": "Consumer purchases.",
+    "definition": "Time spent purchasing or renting consumer goods, regardless of the mode or place of purchase or rental (in person, online, via telephone, at home, or in a store) is classified into this category. Subcategories in this section include those for time spent purchasing gasoline, time spent purchasing groceries, and time spent purchasing other food items, as well as that for time spent in all other shopping activities. "
+  },
+  {
+    "category": "Eating and drinking.",
+    "definition": "All time spent eating or drinking (except that done as part of a work or volunteer activity), whether alone, with others, at home, at a place of purchase, or somewhere else, is classified as eating and drinking. Time spent purchasing or talking related to purchasing meals, snacks, and beverages is not counted as part of this category but is counted instead as time spent making consumer purchases. "
+  },
+  {
+    "category": "Educational activities.",
+    "definition": "Time spent taking classes for a degree or for personal interest (including taking Internet or other distance-learning courses), time spent doing research and homework, and time spent taking care of administrative tasks related to education (such as registering for classes or obtaining a school ID) are included in this category. For high school students, before-school and afterschool extracurricular activities (except sports) also are classified as educational activities. Educational activities do not include time spent for classes or training received as part of a job. Time spent helping others with their education-related activities is classified as an activity involving caring for and helping others. "
+  },
+  {
+    "category": "Government services and civic obligations.",
+    "definition": "This category captures time spent obtaining and using government services (police, fire, social services), such as applying for welfare, and time spent purchasing government-required licenses or paying fines or fees. Civic obligations include governmentrequired duties—such as serving jury duty or appearing in court—as well as activities that assist or influence government processes, such as voting and attending town hall meetings."
+  },
+  {
+    "category": "Household activities.",
+    "definition": "Household activities are activities done by individuals to maintain their households. This category includes time spent in housework; cooking; lawn and garden care; pet care; vehicle maintenance and repair; home maintenance, repair, decoration, and renovation; and household management and organizational activities (such as filling out paperwork, balancing a checkbook, or planning a party). Food preparation, whether or not reported as done specifically for another household member, is always classified as a household activity, unless it was done as a volunteer, work, or income-generating activity. For example, “making breakfast for my son” is coded as a household activity, not as childcare."
+  },
+  {
+    "category": "Household services.",
+    "definition": "Time spent arranging for and purchasing household services provided by someone else for pay is classified here. Household services include housecleaning; cooking; lawn care and landscaping; pet care; tailoring, laundering, and dry cleaning; vehicle maintenance and repairs; and home repairs, maintenance, and construction. "
+  },
+  {
+    "category": "Personal care.",
+    "definition": "Personal care activities include sleeping, grooming (such as bathing or dressing), health-related self-care, and personal or private activities. Receiving unpaid personal care from others (for example, “my sister put polish on my nails”) also is captured in this category. "
+  },
+  {
+    "category": "Professional and personal care services.",
+    "definition": "Time spent obtaining, receiving, and purchasing professional and personal care services provided by someone else for pay is classified into this category. Professional services include childcare, financial services and banking, legal services, medical and adult care services, real estate services, and veterinary services. Personal care services include services received from day spas, hair salons and barbershops, nail salons, and tanning salons. Activities classified here include time spent paying, meeting with, or talking to service providers, as well as time spent receiving the service or waiting to receive the service. "
+  },
+  {
+    "category": "Religious and spiritual activities.",
+    "definition": "Religious activities include activities those normally associated with membership in or identification with specific religions or denominations, such as attending religious services; participating in choirs, youth groups, orchestras, or unpaid teaching (unless identified as volunteer activities); and engaging in personal religious practices, such as praying. "
+  },
+  {
+    "category": "Socializing, relaxing, and leisure.",
+    "definition": "This category includes face-to-face social communication and hosting or attending social functions. Time spent communicating with others via telephone calls, texting, mail, or e-mail is not part of this category. Leisure activities include watching television; reading; relaxing or thinking; playing computer, board, or card games; using a computer or the Internet for personal interest; playing or listening to music; and other activities, such as attending arts, cultural, and entertainment events."
+  },
+  {
+    "category": "Sports, exercise, and recreation.",
+    "definition": "Participating in—as well as attending or watching—sports, exercise, and recreational activities, whether team or individual and competitive or noncompetitive, falls into this category. Recreational activities include yard games like croquet or horseshoes, as well as activities like billiards and dancing. "
+  },
+  {
+    "category": "Telephone calls.",
+    "definition": "This category captures time spent in telephone communication; it also includes texting and Internet voice and video calling. Telephone and Internet purchases of consumer goods are classified into the category of consumer purchases. Telephone calls identified as related to work or volunteering are classified as either work or volunteering."
+  },
+  {
+    "category": "Traveling.",
+    "definition": "Nearly all time spent traveling is classified here. When a respondent reports doing another activity while traveling—for example, eating breakfast while riding the bus to work—the travel activity is recorded as the main activity. Walking and biking are considered traveling when they are used to get from one destination (an address or a building) to another, but not when the primary purpose is exercise. Travel done as an essential part of one’s job—for example, driving a taxi—is recorded as work, not travel. Exhibit 5.1 in the User’s Guide has examples of how travel activities are classified; typically they are dependent upon the activities that immediately follow and precede them. "
+  },
+  {
+    "category": "Volunteer activities.",
+    "definition": "This category captures time spent volunteering for or through an organization. "
+  },
+  {
+    "category": "Working and work-related activities.",
+    "definition": "This category includes time spent working, doing activities as part of one’s job, engaging in income-generating activities not as part of one’s job, and job search activities. “Working” includes hours spent doing the specific tasks required of one’s main or other job, regardless of the location or time of day. “Work-related activities” include activities that are not obviously work but are done as part of one’s job, such as having a business lunch or playing golf with clients. “Other income-generating activities” are those done “on the side” or under informal arrangement and are not part of a regular job. Such activities might include selling homemade crafts, babysitting, maintaining a rental property, or having a yard sale. These activities are those that individuals are paid for or will be paid. "
+  },
+  {
+    "category": ""
+  }
+]
