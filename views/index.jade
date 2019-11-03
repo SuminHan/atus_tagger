@@ -5,7 +5,9 @@ block content
   br
   form.form-inline.row(action='/users/login', method='post')
     .form-group
-      input.form-control(type='text', name='user_id', placeholder='user_id')
+      input.form-control(type='text', name='user_id', placeholder='user_id', value='hsm6911')
       button.btn.btn-primary(type='submit') 로그인 (login)
       a.btn.btn-success(href='/register') 등록 (Register)
       a.btn.btn-warning(href='/atus_manual') ATUS 매뉴얼 (Manual)
+  a.btn.btn-success(href='/history') History
+  a.btn.btn-primary(href='/allhistory') AllHistory

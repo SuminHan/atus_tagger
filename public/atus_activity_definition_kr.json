@@ -88,5 +88,15 @@
     "code": "50",
     "category": "활동 아님",
     "definition": ""
+  },
+  {
+    "code": "51",
+    "category": "모르겠음",
+    "definition": ""
+  },
+  {
+    "code": "52",
+    "category": "광고",
+    "definition": ""
   }
 ]

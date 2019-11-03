@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 //mongoose.connect('mongodb://smhanlab.com/atus_tagger', {useNewUrlParser: true});
 mongoose.connect('mongodb://localhost/atus_tagger', {useNewUrlParser: true});
-const User = mongoose.model('users', { id: {type: String, index: { unique: true }}, name: String, gender: String, age: Number, date: Date });
+var conn      = mongoose.createConnection('mongodb://localhost/atus_tagger');
+const User = conn.model('users', { id: {type: String, index: { unique: true }}, 
+  name: String, gender: String, age: Number, date: Date, user_language: String, docs: [], idx: Number });
 
 var express = require('express');
 var router = express.Router();
@@ -16,27 +18,38 @@ router.get('/', function(req, res, next) {
 /* GET users listing. */
 router.post('/logout', function(req, res, next) {
   if (req.session) {
-    // delete session object
-    req.session.destroy(function(err) {
-      if(err) {
-  		res.send('error');
-      } else {
-      	res.send('success');
-      }
-    });
+	User.findOne({ 'id': req.session.user_id }, function (err, user_doc){
+		if (err) res.redirect('/');
+		else if (!user_doc) res.redirect('/');
+		else {
+		  	user_doc.user_language = req.session.user_language;
+		  	user_doc.docs = req.session.docs;
+		  	user_doc.idx = req.session.idx;
+
+			// delete session object
+		    req.session.destroy(function(err) {
+		      if(err) {
+		  		res.send('error');
+		      } else {
+		      	res.send('success');
+		      }
+		    });
+
+		}
+	});
   }
 });
 
 /* GET users listing. */
 router.post('/login', function(req, res, next) {
-  User.findOne({ 'id': req.body.user_id }, function (err, docs){
+  User.findOne({ 'id': req.body.user_id }, function (err, user_doc){
   	if (err) res.redirect('/');
-  	else if (!docs) res.redirect('/');
+  	else if (!user_doc) res.redirect('/');
   	else {
-	  	console.log('docs', docs);
-	  	req.session.user_id = docs.id;
-	  	if (!docs.user_language) req.session.user_language = 'kr';
-	  	else req.session.user_language = docs.user_language;
+	  	console.log('user_doc', user_doc);
+	  	req.session.user_id = user_doc.id;
+	  	if (!user_doc.user_language) req.session.user_language = 'kr';
+	  	else req.session.user_language = user_doc.user_language;
 	  	res.redirect('/');
 	}
   });

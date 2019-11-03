@@ -88,5 +88,15 @@
     "code": "50",
     "category": "No Activity",
     "definition": ""
+  },
+  {
+    "code": "51",
+    "category": "I Don't Know",
+    "definition": ""
+  },
+  {
+    "code": "52",
+    "category": "Advertisement",
+    "definition": ""
   }
 ]
