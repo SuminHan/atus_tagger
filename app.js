@@ -33,10 +33,6 @@ app.use(express.static(path.join(__dirname, 'node_modules', 'jquery', 'dist')))
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-app.get('/test', function(req, res){
-	res.send(req.session.user_id + '-' + req.session.name);
-});
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

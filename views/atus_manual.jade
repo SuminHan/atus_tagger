@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= 'Atus Manual'
-  a(href='atususersguide.pdf') atus users guide
+  h1=title
+    &nbsp&nbsp
+    a.btn.btn-info(href=atus_language.url)=atus_language.text
+  i(style='color:red;')
+    p=warning
+
+  #accordion
+    each val, index in JSON.parse(atus)
+      .card
+        .card-header(id='code'+val.code)
+          button.btn.btn-link(data-toggle='collapse', data-target='#item'+val.code, aria-expanded='false', aria-controls='item'+val.code)='[' + val.code + '] ' + val.category
+        .collapse(id='item'+val.code, aria-labelledby='code'+val.code, data-parent='#accordion')
+          .card-body=val.definition
+

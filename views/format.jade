@@ -1,30 +1,33 @@
 form#contact-form(method='post', action='users/register', role='form')
   .messages
   .controls
-    h4 아이디등록 (ID register)
+    h5 아이디 등록 (ID register)
     .row
       .col-md-4
         .form-group
-          label 사용할 아이디(ID) *
-          input#form_id.form-control(type='text', name='id', placeholder='', required='required', data-error='ID is required.')
+          label 사용할 아이디 (ID) *
+          input#id.form-control(type='text', name='id', placeholder='', required='required', data-error='ID is required.')
           .help-block.with-errors
-    h4 개인정보(Personal Info.)
+    h5 개인 정보 (Personal Info.)
     .row
       .col-md-4
         .form-group
-          label 이름(Name) *
-          input#form_name.form-control(type='text', name='name', placeholder='홍길동', required='required', data-error='Name is required.')
+          label 이름 (Name) *
+          input#name.form-control(type='text', name='name', placeholder='홍길동', required='required', data-error='Name is required.')
           .help-block.with-errors
+    .row
       .col-md-4
         .form-group
-          label(for='form_need') 성별(Gender) *
-          select#form_need.form-control(name='gender', required='required', data-error='Please specify your need.')
-            option(value='Male') 남자(Male)
+          label(for='form_need') 성별 (Gender) *
+          select#gender.form-control(name='gender', required='required', data-error='Please specify your need.')
+            option(value='Male') 남자 (Male)
             option(value='Female') 여자 (Female)
           .help-block.with-errors
+    .row
       .col-md-4
         .form-group
-          label(for='form_message') 나이(Age) *
-          input.form-control(type='number', name='age')
+          label(for='form_message') 나이 (Age) *
+          input#age.form-control(type='number', required='required', name='age')
+    .row
       .col-md-12
         input.btn.btn-success.btn-send(type='submit', value='등록 (Register)')

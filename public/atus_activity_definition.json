@@ -83,5 +83,10 @@
     "code": "18",
     "category": "Traveling",
     "definition": "Nearly all time spent traveling is classified here. When a respondent reports doing another activity while traveling—for example, eating breakfast while riding the bus to work—the travel activity is recorded as the main activity. Walking and biking are considered traveling when they are used to get from one destination (an address or a building) to another, but not when the primary purpose is exercise. Travel done as an essential part of one’s job—for example, driving a taxi—is recorded as work, not travel. Exhibit 5.1 in the User’s Guide has examples of how travel activities are classified; typically they are dependent upon the activities that immediately follow and precede them."
+  },
+  {
+    "code": "50",
+    "category": "No Activity",
+    "definition": ""
   }
 ]

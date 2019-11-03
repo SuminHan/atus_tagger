@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+.btn {
+	margin: 2px;
+}
+
+.card-text {
+	font-size: 15px;
+}
