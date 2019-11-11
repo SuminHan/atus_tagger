@@ -55,10 +55,26 @@
     "definition": "All time spent eating or drinking (except that done as part of a work or volunteer activity), whether alone, with others, at home, at a place of purchase, or somewhere else, is classified as eating and drinking. Time spent purchasing or talking related to purchasing meals, snacks, and beverages is not counted as part of this category but is counted instead as time spent making consumer purchases. "
   },
   {
-    "code": "12",
-    "category": "Socializing, relaxing, and leisure",
+    "code": "121",
+    "category": "Socializing and Communicating",
     "definition": "This category includes face-to-face social communication and hosting or attending social functions. Time spent communicating with others via telephone calls, texting, mail, or e-mail is not part of this category. Leisure activities include watching television; reading; relaxing or thinking; playing computer, board, or card games; using a computer or the Internet for personal interest; playing or listening to music; and other activities, such as attending arts, cultural, and entertainment events."
   },
+  {
+    "code": "122",
+    "category": "Attending or Hosting Social Events",
+    "definition": "This category includes face-to-face social communication and hosting or attending social functions. Time spent communicating with others via telephone calls, texting, mail, or e-mail is not part of this category. Leisure activities include watching television; reading; relaxing or thinking; playing computer, board, or card games; using a computer or the Internet for personal interest; playing or listening to music; and other activities, such as attending arts, cultural, and entertainment events."
+  },
+  {
+    "code": "123",
+    "category": "Relaxing and Leisure",
+    "definition": "This category includes face-to-face social communication and hosting or attending social functions. Time spent communicating with others via telephone calls, texting, mail, or e-mail is not part of this category. Leisure activities include watching television; reading; relaxing or thinking; playing computer, board, or card games; using a computer or the Internet for personal interest; playing or listening to music; and other activities, such as attending arts, cultural, and entertainment events."
+  },
+  {
+    "code": "124",
+    "category": "Arts and Entertainment (other than sports)",
+    "definition": "This category includes face-to-face social communication and hosting or attending social functions. Time spent communicating with others via telephone calls, texting, mail, or e-mail is not part of this category. Leisure activities include watching television; reading; relaxing or thinking; playing computer, board, or card games; using a computer or the Internet for personal interest; playing or listening to music; and other activities, such as attending arts, cultural, and entertainment events."
+  },
+
   {
     "code": "13",
     "category": "Sports, exercise, and recreation",

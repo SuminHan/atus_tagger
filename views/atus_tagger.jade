@@ -1,39 +1,38 @@
 extends layout
 
 block content
-  br
-  .row(style='border-style: solid; padding-top:12px;')
-    img#myimg(shortcode=img_shortcode src='http://crystal.kaist.ac.kr'+img_url, style='margin-bottom:5px;').col-md-6
-    textarea.col-md-6(readonly style='overflow-y:scroll; height:217px;')=img_caption
-  br
-  div
-    each val, index in JSON.parse(atus)
-      button.btn.btn-sm.btn-outline-secondary(code=val.code)='[' + val.code + '] ' + val.category
+  div(style='max-width: 1000px;')
+    .row(style='border-style: solid; padding-top:12px;')
+      img#myimg(shortcode=img_shortcode src='http://crystal.kaist.ac.kr'+img_url, style='margin-bottom:5px;object-fit:contain;').col-md-6
+      textarea#mycaption.col-md-6(readonly style='overflow-y:scroll; height:167px;')=img_caption
+    br
+    div
+      i 이미지/텍스트 중요도: 
+      each val in atus_weight
+        button.btn.btn-sm.btn-outline-primary.atus_weight_btn(id=val, code=val)=val
+    div
+      i 카테고리: 
+      each val, index in JSON.parse(atus)
+        button.btn.btn-sm.btn-outline-secondary.atus_category_btn(code=val.code)='[' + val.code + '] ' + val.category
 
-    //a.btn.btn-sm.btn-outline-info(href='/idonno')=idonno
-  br
-  a.btn.btn-warning(href=atus_manual.url)=atus_manual.text
-  a.btn.btn-success(href='/history') History
-  a.btn.btn-primary(href='/allhistory') AllHistory
-  a.btn.btn-info(href=atus_language.url)=atus_language.text
-  a.btn.btn-danger#logout_btn Logout
-  script
-    |  $(function(){
-    |    $('button').on('click', function(){
-    |      //if (confirm($(this).text())){
-    |        $.post('/tagging', 
-    |          {'shortcode': $('#myimg').attr('shortcode'),
-    |           'category': $(this).attr('code')},
-    |          function(data) {
-    |            location.reload();
-    |          });
-    |      //}
-    |    });
-    |    $('#logout_btn').on('click', function(){
-    |      if (confirm("Logout?")){
-    |         $.post('/users/logout', function(data){
-    |            window.location.href='/';
-    |         });
-    |      }
-    |    })
-    |  });
+      //a.btn.btn-sm.btn-outline-info(href='/idonno')=idonno
+    br
+    a.btn.btn-warning(href=atus_manual.url)=atus_manual.text
+    a.btn.btn-success(href='/history') History
+    //a.btn.btn-primary(href='/allhistory') AllHistory
+    a.btn.btn-info(href=atus_language.url)=atus_language.text
+    a.btn.btn-danger#logout_btn Logout
+    br
+    p 
+      | count &nbsp
+      i=count
+      | &nbsp
+      | local_id &nbsp
+      i=local_id
+      | &nbsp
+      | group &nbsp
+      i=group
+      | &nbsp
+      | stage &nbsp
+      i=stage
+    script(src='/javascripts/atus_tagger.js')

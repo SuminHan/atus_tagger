@@ -2,10 +2,11 @@ extends layout
 
 block content
   h1= title
+  h3 서버담당자: 한수민 (010-2075-6911)
   br
   form.form-inline.row(action='/users/login', method='post')
     .form-group
-      input.form-control(type='text', name='user_id', placeholder='user_id', value='hsm6911')
+      input.form-control(type='text', name='user_id', placeholder='user_id', value='')
       button.btn.btn-primary(type='submit') 로그인 (login)
       a.btn.btn-success(href='/register') 등록 (Register)
       a.btn.btn-warning(href='/atus_manual') ATUS 매뉴얼 (Manual)

@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  h1 User List&nbsp&nbsp
+    a.btn.btn-danger#logout_btn Logout
+  br
+  form(action='/users/save', method='post')
+    input.btn.btn-success(type='submit', value='SAVE')
+    table.table
+      thead.thead-dark
+        tr
+          th(scope='col') ID
+          th(scope='col') Name
+          th(scope='col') Gender
+          th(scope='col') Age
+          th(scope='col') Group
+          th(scope='col') Stage
+          th(scope='col') Count
+          th(scope='col') Register
+      tbody
+        each val in JSON.parse(userlist)
+          tr
+            th(scope='row')=val.id
+            td=val.name
+            td=val.gender
+            td=val.age
+            td
+              input(type="number", name='group.'+val.id, min=0, max=19 size="5", value=val.group)
+            td
+              input(type="number", name='stage.'+val.id, min=0, max=1000, size="5", value=val.stage)
+            td=val.count
+            td
+              i=moment(val.date).format('MMMM Do YYYY, h:mm:ss a')
+  script
+    |$(function(){
+    |	$('#logout_btn').on('click', function(){
+    |		if (confirm("Logout?")){
+    |			$.post('/users/logout', function(data){
+    |				window.location.href='/';
+    |			});
+    |		}
+    |	})
+    |});
+

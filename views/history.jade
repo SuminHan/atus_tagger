@@ -1,13 +1,15 @@
 extends layout
 
 block content
-  h1 History
+  h1=title
+    &nbsp&nbsp
+    a.btn.btn-info(href='/atus_tagger') 돌아가기
   each val, index in JSON.parse(history)
     .card.col-sm-3(style='display:inline-block;')
       a(href='/atus_tagger/'+val.shortcode)
         img.card-img-top(shortcode=val.shortcode, src='http://crystal.kaist.ac.kr'+val.mydoc['0'], alt='...')
       .card-body
-        h5.card-title='['+val.category + '] '+atus[val.category]
+        h5.card-title='['+val.category + '] '+atus[val.category]+'...'+val.weight
         p.card-text(style='height:60px;overflow:auto;')=val.mydoc.caption
           footer.blockquote-footer
             cite=val.user_id+' ('+moment(val.date).format("YY-MM-DD, h:mm:ss a")+')'

@@ -1,0 +1,1176 @@
+
+> atus-tagger@0.0.0 start /newmnt/jupyter/atus_tagger
+> node ./bin/www
+
+[0mGET /kr/atus_tagger [36m302 [0m11.912 ms - 46[0m
+[0mGET / [32m200 [0m202.453 ms - 875[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.332 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m4.662 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.982 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m3.776 ms - -[0m
+user_doc {
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 11,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mPOST /users/login [36m302 [0m31.100 ms - 46[0m
+[0mGET / [36m302 [0m1.804 ms - 74[0m
+[0mGET /kr/atus_tagger [36m302 [0m2.184 ms - 76[0m
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 11,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mGET /atus_tagger_big [0m- [0m- ms - -[0m
+user_doc {
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 11,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mPOST /users/login [36m302 [0m7.391 ms - 46[0m
+[0mGET / [36m302 [0m1.683 ms - 74[0m
+[0mGET /kr/atus_tagger [36m302 [0m1.772 ms - 76[0m
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 11,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mGET /atus_tagger_big [36m302 [0m1302.647 ms - 68[0m
+[0mGET /atus_tagger [36m302 [0m9.961 ms - 74[0m
+length of current session.doc 100
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 11,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m85.216 ms - 4115[0m
+[0mGET /stylesheets/style.css [36m304 [0m21.960 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m25.108 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m8.571 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m13.602 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m24.847 ms - -[0m
+mydoc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+} [Object: null prototype] {
+  shortcode: 'nSnjwRPkcy',
+  category: '11',
+  weight: 'image_text'
+} hsm6911
+saving doc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': NaN,
+  '2': NaN,
+  '3': NaN,
+  '4': NaN,
+  '5': NaN,
+  '6': NaN,
+  '7': NaN,
+  '8': NaN,
+  '9': NaN,
+  _id: 5dc004fd885a3b1f26a0ce6c,
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: NaN,
+  lng: NaN,
+  group: 0,
+  stage: 0,
+  category: {
+    lhs960701: { category: '07', weight: 'image' },
+    hsm6911: { category: '11', weight: 'image_text' }
+  }
+}
+[0mPOST /tagging [32m200 [0m28.618 ms - 7[0m
+length of current session.doc 99
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 12,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/18812125_611569882387011_2560015437169426432_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6f',
+  local_id: 2,
+  shortcode: 'BU31TFvjtIB',
+  caption: '#이달의아트 #코코비즈 ￦54,000 #착한가격네일💅 젤네일19,800원(케어포함) . 💛리안네일💛 강남역 10번출구 도보1분거리💕 ☎예약문의: 010-2435-9210 📩카카오톡: hayr91 #리안네일#강남네일#강남역네일#강남역네일샵#강남역네일아트#서초동네일#교대네일#역삼네일#선릉네일#사당네일#신논현네일#논현네일#네일#네일아트#젤네일#네일샵#패디큐어#손스타그램#네일스타그램#넬스타그램#nails#nailart#여름네일#웨딩네일#심플네일#젤패디#코코비즈네일',
+  count: 1,
+  loc_id: 214082506,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'text' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m65.397 ms - 4673[0m
+[0mGET /stylesheets/style.css [36m304 [0m10.298 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m14.127 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m6.513 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m16.434 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m8.889 ms - -[0m
+[0mGET /users [32m200 [0m90.809 ms - 1962[0m
+[0mGET /stylesheets/style.css [36m304 [0m12.655 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m16.043 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m12.437 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m16.746 ms - -[0m
+mydoc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/18812125_611569882387011_2560015437169426432_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6f',
+  local_id: 2,
+  shortcode: 'BU31TFvjtIB',
+  caption: '#이달의아트 #코코비즈 ￦54,000 #착한가격네일💅 젤네일19,800원(케어포함) . 💛리안네일💛 강남역 10번출구 도보1분거리💕 ☎예약문의: 010-2435-9210 📩카카오톡: hayr91 #리안네일#강남네일#강남역네일#강남역네일샵#강남역네일아트#서초동네일#교대네일#역삼네일#선릉네일#사당네일#신논현네일#논현네일#네일#네일아트#젤네일#네일샵#패디큐어#손스타그램#네일스타그램#넬스타그램#nails#nailart#여름네일#웨딩네일#심플네일#젤패디#코코비즈네일',
+  count: 1,
+  loc_id: 214082506,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'text' } }
+} [Object: null prototype] {
+  shortcode: 'BU31TFvjtIB',
+  category: '08',
+  weight: 'image_text'
+} hsm6911
+saving doc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/18812125_611569882387011_2560015437169426432_n.jpg',
+  '1': NaN,
+  '2': NaN,
+  '3': NaN,
+  '4': NaN,
+  '5': NaN,
+  '6': NaN,
+  '7': NaN,
+  '8': NaN,
+  '9': NaN,
+  _id: 5dc004fd885a3b1f26a0ce6f,
+  local_id: 2,
+  shortcode: 'BU31TFvjtIB',
+  caption: '#이달의아트 #코코비즈 ￦54,000 #착한가격네일💅 젤네일19,800원(케어포함) . 💛리안네일💛 강남역 10번출구 도보1분거리💕 ☎예약문의: 010-2435-9210 📩카카오톡: hayr91 #리안네일#강남네일#강남역네일#강남역네일샵#강남역네일아트#서초동네일#교대네일#역삼네일#선릉네일#사당네일#신논현네일#논현네일#네일#네일아트#젤네일#네일샵#패디큐어#손스타그램#네일스타그램#넬스타그램#nails#nailart#여름네일#웨딩네일#심플네일#젤패디#코코비즈네일',
+  count: 1,
+  loc_id: 214082506,
+  lat: NaN,
+  lng: NaN,
+  group: 0,
+  stage: 0,
+  category: {
+    lhs960701: { category: '07', weight: 'text' },
+    hsm6911: { category: '08', weight: 'image_text' }
+  }
+}
+[0mPOST /tagging [32m200 [0m15.338 ms - 7[0m
+length of current session.doc 97
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 13,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/26345018_2069244593306271_1830334999346282496_n.jpg',
+  '1': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/26868199_1757446980973513_6501747876668899328_n.jpg',
+  '2': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/26870134_543940035974156_1040614436303273984_n.jpg',
+  '3': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/26375471_696705680717089_30290364229222400_n.jpg',
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6e',
+  local_id: 4,
+  shortcode: 'Bep6KIBlo4t',
+  caption: '#시팔년#시팔살#강남#돈많은백수가되고싶다#핑크색머리#개망#첫사진📷',
+  count: 4,
+  loc_id: 214082506,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '121', weight: 'image' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m49.387 ms - 4183[0m
+[0mGET /stylesheets/style.css [36m304 [0m10.494 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m9.982 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m14.144 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m15.159 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m9.503 ms - -[0m
+[0mGET /users [32m200 [0m66.755 ms - 1962[0m
+[0mGET /stylesheets/style.css [36m304 [0m7.586 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m16.429 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m12.836 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m18.054 ms - -[0m
+
+> atus-tagger@0.0.0 start /newmnt/jupyter/atus_tagger
+> node ./bin/www
+
+[0mGET /users [36m302 [0m11.456 ms - 46[0m
+[0mGET / [32m200 [0m205.410 ms - 875[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.590 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m7.050 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m3.677 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m4.955 ms - -[0m
+user_doc {
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 13,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mPOST /users/login [36m302 [0m29.671 ms - 46[0m
+[0mGET / [36m302 [0m1.160 ms - 74[0m
+[0mGET /kr/atus_tagger [36m302 [0m2.825 ms - 76[0m
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 13,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mGET /atus_tagger_big [36m302 [0m1364.035 ms - 68[0m
+[0mGET /atus_tagger [36m302 [0m5.780 ms - 74[0m
+length of current session.doc 100
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 13,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m83.280 ms - 4115[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.103 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m14.434 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m19.956 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m20.127 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m10.762 ms - -[0m
+mydoc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+} [Object: null prototype] {
+  shortcode: 'nSnjwRPkcy',
+  category: '11',
+  weight: 'image_text'
+} hsm6911
+saving doc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': NaN,
+  '2': NaN,
+  '3': NaN,
+  '4': NaN,
+  '5': NaN,
+  '6': NaN,
+  '7': NaN,
+  '8': NaN,
+  '9': NaN,
+  _id: 5dc004fd885a3b1f26a0ce6c,
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: NaN,
+  lng: NaN,
+  group: 0,
+  stage: 0,
+  category: {
+    lhs960701: { category: '07', weight: 'image' },
+    hsm6911: { category: '11', weight: 'image_text' }
+  }
+}
+[0mPOST /tagging [32m200 [0m26.948 ms - 7[0m
+length of current session.doc 99
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/18812125_611569882387011_2560015437169426432_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6f',
+  local_id: 2,
+  shortcode: 'BU31TFvjtIB',
+  caption: '#이달의아트 #코코비즈 ￦54,000 #착한가격네일💅 젤네일19,800원(케어포함) . 💛리안네일💛 강남역 10번출구 도보1분거리💕 ☎예약문의: 010-2435-9210 📩카카오톡: hayr91 #리안네일#강남네일#강남역네일#강남역네일샵#강남역네일아트#서초동네일#교대네일#역삼네일#선릉네일#사당네일#신논현네일#논현네일#네일#네일아트#젤네일#네일샵#패디큐어#손스타그램#네일스타그램#넬스타그램#nails#nailart#여름네일#웨딩네일#심플네일#젤패디#코코비즈네일',
+  count: 1,
+  loc_id: 214082506,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'text' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m62.179 ms - 4673[0m
+[0mGET /stylesheets/style.css [36m304 [0m16.417 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m14.734 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m18.023 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m8.558 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m9.200 ms - -[0m
+[0mGET /users [32m200 [0m99.295 ms - 1963[0m
+[0mGET /stylesheets/style.css [36m304 [0m15.454 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m10.899 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m15.726 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m16.792 ms - -[0m
+
+> atus-tagger@0.0.0 start /newmnt/jupyter/atus_tagger
+> node ./bin/www
+
+[0mGET /users [36m302 [0m8.569 ms - 46[0m
+[0mGET / [32m200 [0m180.623 ms - 875[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.952 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.948 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m1.592 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.257 ms - -[0m
+user_doc {
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mPOST /users/login [36m302 [0m29.730 ms - 46[0m
+[0mGET / [36m302 [0m1.272 ms - 74[0m
+[0mGET /kr/atus_tagger [36m302 [0m1.586 ms - 76[0m
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mGET /atus_tagger_big [36m302 [0m961.316 ms - 68[0m
+[0mGET /atus_tagger [36m302 [0m5.197 ms - 74[0m
+length of current session.doc 100
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m66.686 ms - 4115[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.579 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m11.125 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m5.014 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m15.459 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m4.538 ms - -[0m
+[0mGET /users [32m200 [0m92.025 ms - 1963[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.518 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m10.656 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m8.374 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m16.123 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m11.695 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m13.735 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m10.478 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m16.704 ms - -[0m
+mydoc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+} [Object: null prototype] {
+  shortcode: 'nSnjwRPkcy',
+  category: '11',
+  weight: 'image_text'
+} hsm6911
+saving doc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': NaN,
+  '2': NaN,
+  '3': NaN,
+  '4': NaN,
+  '5': NaN,
+  '6': NaN,
+  '7': NaN,
+  '8': NaN,
+  '9': NaN,
+  _id: 5dc004fd885a3b1f26a0ce6c,
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: NaN,
+  lng: NaN,
+  group: 0,
+  stage: 0,
+  category: {
+    lhs960701: { category: '07', weight: 'image' },
+    hsm6911: { category: '11', weight: 'image_text' }
+  }
+}
+[0mPOST /tagging [32m200 [0m35.337 ms - 7[0m
+length of current session.doc 99
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/18812125_611569882387011_2560015437169426432_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6f',
+  local_id: 2,
+  shortcode: 'BU31TFvjtIB',
+  caption: '#이달의아트 #코코비즈 ￦54,000 #착한가격네일💅 젤네일19,800원(케어포함) . 💛리안네일💛 강남역 10번출구 도보1분거리💕 ☎예약문의: 010-2435-9210 📩카카오톡: hayr91 #리안네일#강남네일#강남역네일#강남역네일샵#강남역네일아트#서초동네일#교대네일#역삼네일#선릉네일#사당네일#신논현네일#논현네일#네일#네일아트#젤네일#네일샵#패디큐어#손스타그램#네일스타그램#넬스타그램#nails#nailart#여름네일#웨딩네일#심플네일#젤패디#코코비즈네일',
+  count: 1,
+  loc_id: 214082506,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'text' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m87.865 ms - 4673[0m
+[0mGET /stylesheets/style.css [36m304 [0m18.630 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m17.978 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m21.200 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m22.766 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m10.086 ms - -[0m
+[0mGET /users [36m304 [0m70.156 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.541 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m12.616 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m12.791 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m18.327 ms - -[0m
+[0mGET /users [36m304 [0m66.820 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.875 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m10.424 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m14.428 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m15.692 ms - -[0m
+[0mGET /users [36m304 [0m45.530 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m15.959 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m16.117 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m22.470 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m16.183 ms - -[0m
+
+> atus-tagger@0.0.0 start /newmnt/jupyter/atus_tagger
+> node ./bin/www
+
+[0mGET /users [36m302 [0m11.564 ms - 46[0m
+[0mGET / [32m200 [0m217.698 ms - 875[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.174 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.404 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.463 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m3.710 ms - -[0m
+user_doc {
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mPOST /users/login [36m302 [0m31.616 ms - 46[0m
+[0mGET / [36m302 [0m1.295 ms - 74[0m
+[0mGET /kr/atus_tagger [36m302 [0m2.784 ms - 76[0m
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mGET /atus_tagger_big [36m302 [0m1376.709 ms - 68[0m
+[0mGET /atus_tagger [36m302 [0m9.000 ms - 74[0m
+length of current session.doc 100
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m80.637 ms - 4115[0m
+[0mGET /stylesheets/style.css [36m304 [0m9.370 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m11.322 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m8.963 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m15.783 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m7.421 ms - -[0m
+mydoc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+} [Object: null prototype] {
+  shortcode: 'nSnjwRPkcy',
+  category: '11',
+  weight: 'image_text'
+} hsm6911
+saving doc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': NaN,
+  '2': NaN,
+  '3': NaN,
+  '4': NaN,
+  '5': NaN,
+  '6': NaN,
+  '7': NaN,
+  '8': NaN,
+  '9': NaN,
+  _id: 5dc004fd885a3b1f26a0ce6c,
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: NaN,
+  lng: NaN,
+  group: 0,
+  stage: 0,
+  category: {
+    lhs960701: { category: '07', weight: 'image' },
+    hsm6911: { category: '11', weight: 'image_text' }
+  }
+}
+[0mPOST /tagging [32m200 [0m34.589 ms - 7[0m
+length of current session.doc 99
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/18812125_611569882387011_2560015437169426432_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6f',
+  local_id: 2,
+  shortcode: 'BU31TFvjtIB',
+  caption: '#이달의아트 #코코비즈 ￦54,000 #착한가격네일💅 젤네일19,800원(케어포함) . 💛리안네일💛 강남역 10번출구 도보1분거리💕 ☎예약문의: 010-2435-9210 📩카카오톡: hayr91 #리안네일#강남네일#강남역네일#강남역네일샵#강남역네일아트#서초동네일#교대네일#역삼네일#선릉네일#사당네일#신논현네일#논현네일#네일#네일아트#젤네일#네일샵#패디큐어#손스타그램#네일스타그램#넬스타그램#nails#nailart#여름네일#웨딩네일#심플네일#젤패디#코코비즈네일',
+  count: 1,
+  loc_id: 214082506,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'text' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m78.080 ms - 4673[0m
+[0mGET /stylesheets/style.css [36m304 [0m14.875 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m14.932 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m5.560 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m22.070 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m6.794 ms - -[0m
+[0mGET /users [32m200 [0m106.611 ms - 1963[0m
+[0mGET /stylesheets/style.css [36m304 [0m14.890 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m18.245 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m16.483 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m21.276 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m9.385 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m11.308 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m14.335 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m22.229 ms - -[0m
+length of current session.doc 98
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/18812125_611569882387011_2560015437169426432_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6f',
+  local_id: 2,
+  shortcode: 'BU31TFvjtIB',
+  caption: '#이달의아트 #코코비즈 ￦54,000 #착한가격네일💅 젤네일19,800원(케어포함) . 💛리안네일💛 강남역 10번출구 도보1분거리💕 ☎예약문의: 010-2435-9210 📩카카오톡: hayr91 #리안네일#강남네일#강남역네일#강남역네일샵#강남역네일아트#서초동네일#교대네일#역삼네일#선릉네일#사당네일#신논현네일#논현네일#네일#네일아트#젤네일#네일샵#패디큐어#손스타그램#네일스타그램#넬스타그램#nails#nailart#여름네일#웨딩네일#심플네일#젤패디#코코비즈네일',
+  count: 1,
+  loc_id: 214082506,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'text' } }
+}
+[0mGET /kr/atus_tagger [36m304 [0m53.616 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.954 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m13.359 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m15.652 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m17.355 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m13.308 ms - -[0m
+[0mPOST /users/logout [32m200 [0m11.322 ms - 7[0m
+[0mGET / [32m200 [0m34.416 ms - 875[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.468 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.666 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m4.083 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m2.949 ms - -[0m
+user_doc {
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mPOST /users/login [36m302 [0m4.804 ms - 46[0m
+[0mGET / [36m302 [0m0.812 ms - 74[0m
+[0mGET /kr/atus_tagger [36m302 [0m1.053 ms - 76[0m
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mGET /atus_tagger_big [36m302 [0m875.473 ms - 68[0m
+[0mGET /atus_tagger [36m302 [0m4.835 ms - 74[0m
+length of current session.doc 100
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m32.190 ms - 4115[0m
+[0mGET /stylesheets/style.css [36m304 [0m12.177 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m13.376 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m4.570 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m19.070 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m6.087 ms - -[0m
+
+> atus-tagger@0.0.0 start /newmnt/jupyter/atus_tagger
+> node ./bin/www
+
+[0mGET /kr/atus_tagger [36m302 [0m12.986 ms - 46[0m
+[0mGET / [32m200 [0m192.444 ms - 875[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.039 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.606 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m4.157 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m3.353 ms - -[0m
+user_doc {
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mPOST /users/login [36m302 [0m28.941 ms - 46[0m
+[0mGET / [36m302 [0m1.312 ms - 74[0m
+[0mGET /kr/atus_tagger [36m302 [0m1.858 ms - 76[0m
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+[0mGET /atus_tagger_big [36m302 [0m1097.912 ms - 68[0m
+[0mGET /atus_tagger [36m302 [0m5.775 ms - 74[0m
+length of current session.doc 100
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m80.893 ms - 4115[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.554 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m9.401 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m12.523 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m14.595 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m9.081 ms - -[0m
+mydoc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6c',
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'image' } }
+} [Object: null prototype] {
+  shortcode: 'nSnjwRPkcy',
+  category: '11',
+  weight: 'image_text'
+} hsm6911
+saving doc: {
+  '0': '/mnt/SEOUL_SUBWAY_DATA/20.Seolleung/249582208/10268828_724732160956828_1435623180_n.jpg',
+  '1': NaN,
+  '2': NaN,
+  '3': NaN,
+  '4': NaN,
+  '5': NaN,
+  '6': NaN,
+  '7': NaN,
+  '8': NaN,
+  '9': NaN,
+  _id: 5dc004fd885a3b1f26a0ce6c,
+  local_id: 0,
+  shortcode: 'nSnjwRPkcy',
+  caption: '#먹스타그램 비 초코 케익!!',
+  count: 1,
+  loc_id: 249582208,
+  lat: NaN,
+  lng: NaN,
+  group: 0,
+  stage: 0,
+  category: {
+    lhs960701: { category: '07', weight: 'image' },
+    hsm6911: { category: '11', weight: 'image_text' }
+  }
+}
+[0mPOST /tagging [32m200 [0m34.920 ms - 7[0m
+length of current session.doc 99
+{
+  _id: 5dc11fe3d92d1d4a1739f60f,
+  id: 'hsm6911',
+  name: '한수민',
+  gender: 'Male',
+  age: 26,
+  date: 2019-11-05T07:08:19.224Z,
+  count: 281,
+  stage: 0,
+  group: 0,
+  __v: 0
+}
+{
+  '0': '/mnt/SEOUL_SUBWAY_DATA/22.Gangnam/214082506/18812125_611569882387011_2560015437169426432_n.jpg',
+  '1': null,
+  '2': null,
+  '3': null,
+  '4': null,
+  '5': null,
+  '6': null,
+  '7': null,
+  '8': null,
+  '9': null,
+  _id: '5dc004fd885a3b1f26a0ce6f',
+  local_id: 2,
+  shortcode: 'BU31TFvjtIB',
+  caption: '#이달의아트 #코코비즈 ￦54,000 #착한가격네일💅 젤네일19,800원(케어포함) . 💛리안네일💛 강남역 10번출구 도보1분거리💕 ☎예약문의: 010-2435-9210 📩카카오톡: hayr91 #리안네일#강남네일#강남역네일#강남역네일샵#강남역네일아트#서초동네일#교대네일#역삼네일#선릉네일#사당네일#신논현네일#논현네일#네일#네일아트#젤네일#네일샵#패디큐어#손스타그램#네일스타그램#넬스타그램#nails#nailart#여름네일#웨딩네일#심플네일#젤패디#코코비즈네일',
+  count: 1,
+  loc_id: 214082506,
+  lat: null,
+  lng: null,
+  group: 0,
+  stage: 0,
+  category: { lhs960701: { category: '07', weight: 'text' } }
+}
+[0mGET /kr/atus_tagger [32m200 [0m66.505 ms - 4673[0m
+[0mGET /stylesheets/style.css [36m304 [0m7.729 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m7.696 ms - -[0m
+[0mGET /jquery.min.js [36m304 [0m10.172 ms - -[0m
+[0mGET /javascripts/atus_tagger.js [36m304 [0m8.177 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m9.724 ms - -[0m

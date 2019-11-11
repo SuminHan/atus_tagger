@@ -3,15 +3,21 @@ extends layout
 block content
   h1=title
     &nbsp&nbsp
+    a.btn.btn-info(href='/atus_tagger') 돌아가기
+    &nbsp&nbsp
     a.btn.btn-info(href=atus_language.url)=atus_language.text
   i(style='color:red;')
     p=warning
 
   #accordion
     each val, index in JSON.parse(atus)
-      .card
+      .card(style='white-space:pre-line;')
         .card-header(id='code'+val.code)
           button.btn.btn-link(data-toggle='collapse', data-target='#item'+val.code, aria-expanded='false', aria-controls='item'+val.code)='[' + val.code + '] ' + val.category
         .collapse(id='item'+val.code, aria-labelledby='code'+val.code, data-parent='#accordion')
           .card-body=val.definition
-
+  a(href='/ATUS_Tagger_Cheatsheet.pdf') Reference: ATUS_Cheatsheet
+  br
+  a(href='/ATUS_Lexicon2018.pdf') Reference: ATUS_Lexicon
+  br
+  a(href='/atususersguide.pdf') Reference: Atus Users Guide
